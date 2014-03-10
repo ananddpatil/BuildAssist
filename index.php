@@ -22,7 +22,7 @@ if(isset($_SESSION['msg'])){
 } // if(isset($_SESSION['msg']))
 
 
-		  
+//Test comment		  
 
 #-------------------------------------Messaging-END----------------------------- 
 
