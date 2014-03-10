@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link type="text/css" rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="bootstrap/css/docs.css" />
+<link type="text/css" rel="stylesheet" href="bootstrap/css/datepicker.css" />
+<title>Rates- BuildAssist</title>
+</head>
+<body>
+<div class="row-fluid">
+<div class="span10 offset1">
+<!--DEFINE RATE - START -->
+		<h3 id="RatePopupLabel">Enter price chart for the deal</h3>
+		Example given at the bottom of the page.
+		<br/><br/>
+		<form class=well>
+		<div class="control-group">
+		
+			<!--MINIMUM QUANTITY - START -->
+			  <label class="control-label">Minimum Quantity</label>
+			  <div class="controls">
+				<div class="input-append">
+				  <input id="buttondropdown" name="buttondropdown" class="span4" placeholder="Quantity" type="text" required="">
+				  <div class="btn-group">
+					<button class="btn dropdown-toggle" data-toggle="dropdown">
+					  Choose
+					  <span class="caret"></span>
+					</button>
+					<ul class="dropdown-menu">
+					  <li><a href="#">Kgs.</a></li>
+					  <li><a href="#">Pieces</a></li>
+					  <li><a href="#">Tonnes</a></li>
+					  <li><a href="#">litres</a></li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+			<br/>
+			<!--MINIMUM QUANTITY - END -->
+						<table class="table table-bordered" >
+								<thead>
+									<td style="vertical-align:middle"> <b>Include<br/>Row?</b></td>
+									<td style="vertical-align:middle"> <b>Quantity</b> </td>
+									<td style="vertical-align:middle"> <b>Rate in Rs.** per &nbsp; </b>
+									
+									<div class="input-append">
+									  <input id="buttondropdown" name="buttondropdown" class="span4" placeholder="Quantity" type="text" required="">
+									  <div class="btn-group">
+										<button class="btn dropdown-toggle" data-toggle="dropdown">
+										  Choose
+										  <span class="caret"></span>
+										</button>
+										<ul class="dropdown-menu">
+										  <li><a href="#">Kgs.</a></li>
+										  <li><a href="#">Pieces</a></li>
+										  <li><a href="#">Tonnes</a></li>
+										  <li><a href="#">litres</a></li>
+										</ul>
+									  </div>
+									</div>
+								</td>						
+								</thead>
+								<tbody>
+									<tr>
+										<td style="vertical-align:middle">
+										<input type="checkbox" name="checkboxes" value="1">
+										</td>
+										
+										<td style="vertical-align:middle">								
+											<div class="input-append">
+											  <input id="buttondropdown" name="buttondropdown" class="span8" placeholder="Quantity" type="text" required="">
+											  <div class="btn-group">
+												<button class="btn dropdown-toggle" data-toggle="dropdown">
+												  Choose
+												  <span class="caret"></span>
+												</button>
+												<ul class="dropdown-menu">
+												  <li><a href="#">Kgs.</a></li>
+												  <li><a href="#">Pieces</a></li>
+												  <li><a href="#">Tonnes</a></li>
+												  <li><a href="#">litres</a></li>
+												</ul>
+											  </div>
+											</div> 
+											&nbsp;to&nbsp;
+											<div class="input-append">
+											  <input id="buttondropdown" name="buttondropdown" class="span8" placeholder="Quantity" type="text" required="">
+											  <div class="btn-group">
+												<button class="btn dropdown-toggle" data-toggle="dropdown">
+												  Choose
+												  <span class="caret"></span>
+												</button>
+												<ul class="dropdown-menu">
+												  <li><a href="#">Kgs.</a></li>
+												  <li><a href="#">Pieces</a></li>
+												  <li><a href="#">Tonnes</a></li>
+												  <li><a href="#">litres</a></li>
+												</ul>
+											  </div>
+											</div> 
+											
+										</td>
+										<td style="vertical-align:middle"> <div class="controls">
+											<div class="input-prepend">
+											  <span class="add-on">Rs.</span>
+											  <input id="prependedtext" name="prependedtext" class="span8" placeholder="Enter amount" type="text">
+											</div>
+											
+										</td> 
+									</tr>
+									<tr>
+										<td style="vertical-align:middle">
+										<input type="checkbox" name="checkboxes" value="1">
+										</td>
+										<td style="vertical-align:middle">
+												<div class="input-append">
+												  <input id="buttondropdown" name="buttondropdown" class="span8" placeholder="Quantity" type="text" required="">
+												  <div class="btn-group">
+													<button class="btn dropdown-toggle" data-toggle="dropdown">
+													  Choose
+													  <span class="caret"></span>
+													</button>
+													<ul class="dropdown-menu">
+													  <li><a href="#">Kgs.</a></li>
+													  <li><a href="#">Pieces</a></li>
+													  <li><a href="#">Tonnes</a></li>
+													  <li><a href="#">litres</a></li>
+													</ul>
+												  </div>
+												</div> 
+												&nbsp;to&nbsp;
+												<div class="input-append">
+												  <input id="buttondropdown" name="buttondropdown" class="span8" placeholder="Quantity" type="text" required="">
+												  <div class="btn-group">
+													<button class="btn dropdown-toggle" data-toggle="dropdown">
+													  Choose
+													  <span class="caret"></span>
+													</button>
+													<ul class="dropdown-menu">
+													  <li><a href="#">Kgs.</a></li>
+													  <li><a href="#">Pieces</a></li>
+													  <li><a href="#">Tonnes</a></li>
+													  <li><a href="#">litres</a></li>
+													</ul>
+												  </div>
+												</div> 
+											
+										</td>
+										<td style="vertical-align:middle"><div class="input-prepend">
+											  <span class="add-on">Rs.</span>
+											  <input id="prependedtext" name="prependedtext" class="span8" placeholder="Enter amount" type="text">
+											</div>
+											</td> 
+									</tr>
+									<tr>
+										<td style="vertical-align:middle">
+										<input type="checkbox" name="checkboxes" value="1">
+										</td>
+										<td style="vertical-align:middle"> 
+																					<div class="input-append">
+											  <input id="buttondropdown" name="buttondropdown" class="span8" placeholder="Quantity" type="text" required="">
+											  <div class="btn-group">
+												<button class="btn dropdown-toggle" data-toggle="dropdown">
+												  Choose
+												  <span class="caret"></span>
+												</button>
+												<ul class="dropdown-menu">
+												  <li><a href="#">Kgs.</a></li>
+												  <li><a href="#">Pieces</a></li>
+												  <li><a href="#">Tonnes</a></li>
+												  <li><a href="#">litres</a></li>
+												</ul>
+											  </div>
+											</div> 
+											&nbsp;to&nbsp;
+											<div class="input-append">
+											  <input id="buttondropdown" name="buttondropdown" class="span8" placeholder="Quantity" type="text" required="">
+											  <div class="btn-group">
+												<button class="btn dropdown-toggle" data-toggle="dropdown">
+												  Choose
+												  <span class="caret"></span>
+												</button>
+												<ul class="dropdown-menu">
+												  <li><a href="#">Kgs.</a></li>
+												  <li><a href="#">Pieces</a></li>
+												  <li><a href="#">Tonnes</a></li>
+												  <li><a href="#">litres</a></li>
+												</ul>
+											  </div>
+											</div> 
+											
+										</td>
+										<td style="vertical-align:middle"><div class="input-prepend">
+											  <span class="add-on">Rs.</span>
+											  <input id="prependedtext" name="prependedtext" class="span8" placeholder="Enter amount" type="text">
+											</div>
+											</td> 
+									</tr>
+									<tr>
+										<td style="vertical-align:middle">
+										<input type="checkbox" name="checkboxes" value="1">
+										</td>
+										<td style="vertical-align:middle">
+											<div class="input-append">
+											  <input id="buttondropdown" name="buttondropdown" class="span8" placeholder="Quantity" type="text" required="">
+											  <div class="btn-group">
+												<button class="btn dropdown-toggle" data-toggle="dropdown">
+												  Choose
+												  <span class="caret"></span>
+												</button>
+												<ul class="dropdown-menu">
+												  <li><a href="#">Kgs.</a></li>
+												  <li><a href="#">Pieces</a></li>
+												  <li><a href="#">Tonnes</a></li>
+												  <li><a href="#">litres</a></li>
+												</ul>
+											  </div>
+											</div> 
+											&nbsp;to&nbsp;
+											<div class="input-append">
+											  <input id="buttondropdown" name="buttondropdown" class="span8" placeholder="Quantity" type="text" required="">
+											  <div class="btn-group">
+												<button class="btn dropdown-toggle" data-toggle="dropdown">
+												  Choose
+												  <span class="caret"></span>
+												</button>
+												<ul class="dropdown-menu">
+												  <li><a href="#">Kgs.</a></li>
+												  <li><a href="#">Pieces</a></li>
+												  <li><a href="#">Tonnes</a></li>
+												  <li><a href="#">litres</a></li>
+												</ul>
+											  </div>
+											</div> 
+											
+										</td>
+										<td style="vertical-align:middle"><div class="input-prepend">
+											  <span class="add-on">Rs.</span>
+											  <input id="prependedtext" name="prependedtext" class="span8" placeholder="Enter amount" type="text">
+											</div>
+											</td> 
+									</tr>
+									<tr>
+										<td style="vertical-align:middle">
+										<input type="checkbox" name="checkboxes" value="1">
+										</td>
+										<td style="vertical-align:middle" >
+												Greater than &nbsp;
+												<div class="input-append">
+											  <input id="buttondropdown" name="buttondropdown" class="span8" placeholder="Quantity" type="text" required="">
+											  <div class="btn-group">
+												<button class="btn dropdown-toggle" data-toggle="dropdown">
+												  Choose
+												  <span class="caret"></span>
+												</button>
+												<ul class="dropdown-menu">
+												  <li><a href="#">Kgs.</a></li>
+												  <li><a href="#">Pieces</a></li>
+												  <li><a href="#">Tonnes</a></li>
+												  <li><a href="#">litres</a></li>
+												</ul>
+											  </div>
+											</div> 
+										
+										</td>
+										
+										<td style="vertical-align:middle">
+												 Contact us for bulk discount
+										</td>
+									
+									</tr>
+								</tbody>
+							</table>
+							** - Taxes and Transport charges will be extra
+							<br/><br/>	
+								<div class="modal-footer" align="left">
+										<button class="btn btn-success">Submit</button> 
+										<button class="btn btn-danger">Clear</button> 
+										<button class="btn" onclick="javascript:window.close()">Close</button> 
+								</div>	
+		  
+		</div>
+		</form>
+		
+		<b>Example:</b><br/><br/>
+		Minimum Quantity: 100 Kgs. <br/>
+		<table class="table table-bordered">
+								<thead>
+									<th> Quanity </th>
+									<th> Rate in Rs.** per 50 Kgs.</th>						
+								</thead>
+								<tbody>
+									<tr>
+										<td> 100 to 500 Kgs. </td>
+										<td> Rs 290</td> 
+									</tr>
+									<tr>
+										<td> 501 to 1000 Kgs. </td>
+										<td> Rs 270</td> 
+									</tr>
+									<tr>
+										<td> 1001 to 2000 Kgs. </td>
+										<td> Rs 260</td> 
+									</tr>
+									<tr>
+										<td> Greater than 2001 Kgs. </td>
+										<td> Contact us for bulk discount</td> 
+									</tr>
+								</tbody>
+							</table>
+							** - Taxes and Transport charges will be extra	
+
+<!--DEFINE RATE - END -->
+</div>
+</div>
+
+</body>
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap/js/bootstrap-datepicker.js"></script>
+<script>
+	$(function(){
+		$('#dp3').datepicker();
+				});
+						
+</script>
+
+
+</html>

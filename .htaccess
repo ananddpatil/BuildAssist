@@ -1,0 +1,46 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+#--------Disable Directory Listings------------------------------------------------------
+Options -Indexes
+
+
+
+#------------EMAIL VERIFICATION---------------------
+
+RewriteRule ^Register_Part1			modules/Register_Part1.php [PT]
+RewriteRule ^Register_Part2/(.*)/(.*)/(.*)$     modules/Register_Part2.php?activity=$1&email=$2&activationcode=$3 [PT]
+
+
+
+#------------SHOWING actual TO dummy link IN URL FOR SECURITY PURPOSE---------------------
+
+RewriteRule ^welcome 			home.php [PT]
+RewriteRule ^ForgotPassword 		modules/login/ForgotPassword.php [PT]
+RewriteRule ^user-administration-panel 	modules/manage-users/index.php [PT]
+RewriteRule ^ResetMyPassword         	modules/login/SetMyNewPassword.php [PT]
+RewriteRule ^set-new-password/(.*)$     modules/login/reset-password.php?activationcode=$1 [PT]
+RewriteRule ^SignOut 			modules/login/signout.php [PT]
+RewriteRule ^login 			login.php [PT]
+
+
+#####################################################################################
+#----------------------------Placements----------------------------------------------
+####################################################################################
+
+
+RewriteRule ^CandidateDetails 		modules/CandidateDetails.php [PT]
+RewriteRule ^ClientDetails 		modules/ClientDetails.php [PT]
+RewriteRule ^PlacementsActivity 	modules/PlacementsActivity.php [PT]
+RewriteRule ^PositionDetails 		modules/PositionDetails.php [PT]
+RewriteRule ^PlacementsActivitySheet	modules/PlacementsActivity.php [PT]
+
+#####################################################################################
+#----------------------------Placements- REPORTS ----------------------------------------------
+####################################################################################
+
+RewriteRule ^Report_RecruiterActivity	modules/Report_RecruiterActivity.php [PT]
+RewriteRule ^Report_Positions		modules/Report_Positions.php [PT]
+RewriteRule ^Report_CandidateJoinings	modules/Report_CandidateJoinings.php [PT]
+RewriteRule ^Report_Financials		modules/Report_Financials.php [PT]
+
